@@ -1,10 +1,8 @@
 #include<stdio.h>
 /**
- * Starts from the  main() function
- *
+ * main - Start function
+ * Return: Return 0
  */
-
-
 
 int main(void)
 {
