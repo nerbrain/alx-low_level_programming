@@ -4,7 +4,7 @@
 /**
  * main - Start function
  *
- * Return - always 0
+ * Return: Return 0
  */
 
 int main(void)
@@ -16,15 +16,15 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 	{
-		printf("%d is positive", n);
+		printf("%d is positive ", n);
 	}
 	else if (n == 0)
 	{
-		printf("%d is zero", n);
+		printf("%d is zero ", n);
 	}
 	else
 	{
-		printf("%d is negative", n);
+		printf("%d is negative ", n);
 	}
 
 	return (0);
