@@ -1,19 +1,17 @@
 #include<stdio.h>
 
 /**
- * main - start function
+ * print_alphabet - prints the alphabets
  *
- * Return: Return 0
+ * Returns: 0
  */
-
-int main(void)
+void print_alphabet(void)
 {
 	int a;
 
 	for (a = 97; a <= 122; a++)
 	{
-		printf("%d\n", a);
+		_putchar(a);
 	}
-
-	return (0);
+	_putchar("\n");
 }
