@@ -14,15 +14,15 @@ int main(void)
 	{
 		for (b = 48; a <= 57; b++)
 		{
-			if ( a == 56 && b == 57)
+			putchar(a);
+			putchar(b);
+			if (a == 56 && b == 57)
 			{
-				putchar(a);
-				putchar(b);
+				putchar('\n');
+				return (0);
 			}
 			else
 			{
-				putchar(a);
-				putchar(b);
 				putchar(',');
 				putchar(' ');
 			}
