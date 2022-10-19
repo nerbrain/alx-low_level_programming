@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * _islower - checks if the letter is lowercase
+ *_islower - checks if the letter is lowercase
  *
- * Returns: 0 if uppercase, 1 if lowercase
+ * @c: ACII code value
+ *
+ * Return: 0 if uppercase, 1 if lowercase
  */
 int _islower(int c)
 {
