@@ -10,14 +10,22 @@ int main(void)
 {
 	int a, b;
 
-	for (a = 48; a <= 57; a++)
+	for (a = 48; a <= 56; a++)
 	{
 		for (b = 48; a <= 57; b++)
 		{
-			putchar(a);
-			putchar(b);
-			putchar(',');
-			putchar(' ');
+			if ( a == 56 && b == 57)
+			{
+				putchar(a);
+				putchar(b);
+			}
+			else
+			{
+				putchar(a);
+				putchar(b);
+				putchar(',');
+				putchar(' ');
+			}
 
 			if (b == 57)
 			{
@@ -25,10 +33,11 @@ int main(void)
 			}
 		}
 
-		if (a == 57)
+		if (a == 56)
 		{
 			break;
 		}
 	}
+	putchar('\n');
 	return (0);
 }
