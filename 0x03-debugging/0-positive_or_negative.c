@@ -7,7 +7,7 @@
  * Return: Return 0
  */
 
-int postive_or_negative(void)
+int positive_or_negative(void)
 {
 	int n;
 
