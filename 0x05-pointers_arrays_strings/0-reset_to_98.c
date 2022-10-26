@@ -1,20 +1,14 @@
 #include "main.h"
 
 /**
- * swap_int - swap input values
+ * reset_to_98 - reset value to 98
  *
- * @a: address to a
- * @b: address to b
+ * @n: address to n
  *
  * Return: n/a
  */
 
-void swap_int(int *a, int *b)
+void reset_to_98(int *n)
 {
-	int *temp;
-
-	temp = *a;
-	*a = *b;
-	*b = *temp;
-	printf("a=%d, b=%d", *a, *b);
+	*n = 98;
 }
