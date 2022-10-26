@@ -3,14 +3,14 @@
 /**
  * _puts - put string
  *
- * @s: address to char s
+ * @str: address to char s
  *
  * Return: n/a
  */
 
 void _puts(char *str)
 {
-	int a;
+	int a = 0;
 
 	while (a >= 0)
 	{
