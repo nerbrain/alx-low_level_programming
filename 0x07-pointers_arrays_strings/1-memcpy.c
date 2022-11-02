@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memcpy - copies 
+ * _memcpy - copies
  * @dest: copy to
  * @src: copy from
  * @n: how many times
