@@ -3,7 +3,7 @@
  * _strchr - locates character
  * @s: string to find char
  * @c: char to find
- * Return: n/a
+ * Return: value
  */
 
 char *_strchr(char *s, char c)
@@ -18,7 +18,7 @@ char *_strchr(char *s, char c)
 		}
 	}
 	if (s[a] == c)
-		return (s + i);
+		return (s + a);
 
 	return (0);
 }
