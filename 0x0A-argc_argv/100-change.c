@@ -27,19 +27,19 @@ int main(int argc, char *argv[])
 	{
 		if (money >= 25)
 			money -= 25;
-		
+
 		else if (money >= 10)
 			money -= 10;
-		
+
 		else if (money >= 5)
 			money -= 5;
-		
+
 		else if (money >= 2)
 			money -= 2;
-		
+
 		else if (money >= 1)
 			money -= 1;
-		
+
 		coins += 1;
 	}
 
