@@ -33,11 +33,11 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 	}
 
-	for (c = 0; c < i; c++)
+	for (c = 0; c < a; c++)
 		strout[c] = s1[c];
 
 	max = b;
-	for (b = 0; b <= limit; c++, b++)
+	for (b = 0; b <= max; c++, b++)
 		strout[c] = s2[b];
 
 	return (strout);
