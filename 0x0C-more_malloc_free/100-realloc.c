@@ -5,7 +5,7 @@
  * _realloc - reallocate memory
  * @ptr : pointer
  * @old_size: int
- * @nex_size: int
+ * @new_size: int
  *
  * Return: pointer
  */
