@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 
 /**
- * sum_them_all - sum 
+ * sum_them_all - sum
  * @n: number of args
  *
  * Return: sum of inputs
@@ -13,7 +13,7 @@ int sum_them_all(const unsigned int n, ...)
 	unsigned int a = 0;
 	int sum = 0;
 
-	if (a == 0)
+	if (n == 0)
 		return (0);
 
 	va_start(list, n);
@@ -23,5 +23,5 @@ int sum_them_all(const unsigned int n, ...)
 
 	va_end(list);
 
-	return(sum);
+	return (sum);
 }
