@@ -2,19 +2,17 @@
 
 /**
  * print_all - prints anything.
- * @format: types of arguments.
+ * @format: types of arguments
  *
  * Return: n/a
  */
 void print_all(const char * const format, ...)
 {
 	va_list list;
-    const char args[] = "cifs";
 	unsigned int a = 0, b, c = 0;
-	char *st;
-	
+	char *string;
+	const char args[] = "cifs";
 
-    
 	va_start(list, format);
 	while (format && format[a])
 	{
@@ -39,13 +37,13 @@ void print_all(const char * const format, ...)
 			printf("%f", va_arg(list, double)), c = 1;
 			break;
 		case 's':
-			st = va_arg(list, char *), c = 1;
-			if (!st)
+			string = va_arg(list, char *), c = 1;
+			if (!string)
 			{
 				printf("(nil)");
 				break;
 			}
-			printf("%s", st);
+			printf("%s", string);
 			break;
 		} a++;
 	}
